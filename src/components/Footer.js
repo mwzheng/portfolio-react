@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     const githubLink = 'https://github.com/mwzheng/portfolio-react';
 
-    return <footer className='fixed-bottom py-3 text-center bg-dark text-white'>
+    return <footer className='py-3 text-center bg-dark text-white'>
         <div className='container '>
             <p className='lead'>
                 Copyright &copy; 2021&emsp;|&emsp;
