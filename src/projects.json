@@ -1,0 +1,23 @@
+[
+    {
+        "imgPath": "static/img/jobAppTracker.png",
+        "projectName": "Job-App-Tracker",
+        "projectDescription": "A react app to help me keep track of and visualize my job applications. Made using the MERN stack",
+        "technologies": ["React.js", "MongoDb", "Express.js", "Node.js"],
+        "link": "https://github.com/mwzheng/job-app-tracker-MERN"
+    },
+    {
+        "imgPath": "static/img/discord.png",
+        "projectName": "Discord Bot",
+        "projectDescription": "A personal discord bot made using Discord.js and several small APIs. Hosted on Heroku.",
+        "technologies": ["Node.js", "Various APIs"],
+        "link": "https://github.com/mwzheng/discord-bot"
+    },
+    {
+        "imgPath": "static/img/cryptoData.png",
+        "projectName": "Crypto Data Displayer",
+        "projectDescription": "Simple react app that displays data retrieved from the CryptingUp API about different cryptocurrencies",
+        "technologies": ["React.js", "API"],
+        "link": "https://github.com/mwzheng/simple-react-crypto-data-displayer"
+    }
+]
