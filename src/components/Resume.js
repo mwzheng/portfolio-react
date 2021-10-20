@@ -1,4 +1,6 @@
 import React from "react";
+import ProjectCard from "./ProjectCard";
+import projects from '../projects.json';
 
 const Resume = () => {
     const technicalSkills = ["JavaScript", "HTML5", "CSS3", "C", "React.js", "Node.js",
@@ -24,12 +26,16 @@ const Resume = () => {
         </ul>
     }
 
-    return <div className='overflow-auto bg-secondary py-4'>
+    const makeProjectCards = (proj) => {
+        return proj.map(aProj => <ProjectCard key={aProj.projectName} project={aProj} />)
+    }
+
+    return <div className='overflow-auto py-4'>
         <div className='resumeContainer container'>
             <div className='accordion' id='headingOne'>
 
                 {/* Education Section */}
-                <div className='accordion-item'>
+                <div className='accordion-item' id='headingOne'>
                     <h1 className='accordion-header' id='education'>
                         <button className='accordion-button fs-4' type='button' data-bs-toggle='collapse'
                             data-bs-target='#educationAccordion'>Education</button>
@@ -48,10 +54,10 @@ const Resume = () => {
                 {/* Technical Skills Section */}
                 <div className='accordion-item' id='headingTwo'>
                     <h1 className='accordion-header' id='skills'>
-                        <button className='accordion-button fs-4 collapsed' type='button' data-bs-toggle='collapse'
+                        <button className='accordion-button fs-4' type='button' data-bs-toggle='collapse'
                             data-bs-target='#skillsAccordion'>Technical Skills</button>
                     </h1>
-                    <div id='skillsAccordion' className='accordion-collapse collapse' data-bs-parent='resumeAccordion'>
+                    <div id='skillsAccordion' className='accordion-collapse collapse show' data-bs-parent='resumeAccordion'>
                         <div className='accordion-body'>
                             <div className='container'>
                                 {makeUnorderedList(technicalSkills)}
@@ -63,12 +69,12 @@ const Resume = () => {
                 {/* Projects Section */}
                 <div className='accordion-item' id='headingThree'>
                     <h1 className='accordion-header' id='projects'>
-                        <button className='accordion-button fs-4 collapsed' type='button' data-bs-toggle='collapse'
+                        <button className='accordion-button fs-4' type='button' data-bs-toggle='collapse'
                             data-bs-target='#projectsAccordion'>Projects</button>
                     </h1>
-                    <div id='projectsAccordion' className='accordion-collapse collapse' data-bs-parent='resumeAccordion'>
-                        <div className='accordion-body'>
-                            <strong>Projects</strong>
+                    <div id='projectsAccordion' className='accordion-collapse collapse show' data-bs-parent='resumeAccordion'>
+                        <div className='accordion-body d-flex flex-wrap justify-content-between'>
+                            {makeProjectCards(projects)}
                         </div>
                     </div>
                 </div>
