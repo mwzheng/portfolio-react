@@ -11,7 +11,7 @@ const Footer = () => {
                 Copyright &copy; 2021&emsp;|&emsp;
                 <i className='bi bi-github'> </i>
                 <a href={githubLink} target='_blank' rel='noreferrer'>GitHub</a>&emsp;|&emsp;
-                <i class="bi bi-linkedin"> </i>
+                <i className='bi bi-linkedin'> </i>
                 <a href={linkedinLink} target='_blank' rel='noreferrer'>LinkedIn</a>&emsp;|&emsp;
                 <Link to='/'>Home</Link>&emsp;|&emsp;
                 <Link to='/resume'>Resume</Link>&emsp;|&emsp;

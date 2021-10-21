@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import allProjects from '../allProjects.json';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
-    const [projectList, setProjectList] = useState(allProjects);
+    let projectList = allProjects;
 
     const createProjectCards = () => {
         return projectList.map(project => {
