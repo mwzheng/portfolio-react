@@ -126,7 +126,8 @@
         "technologies": ["React.js","JavaScript"],
         "type": "Personal",
         "projectDescription": "Simple React app that pulls data from CryptingUp on various cryptocurrencies and displays it. Shows recent prices for each.",
-        "imgPath": "static/img/cryptoData.png"       
+        "imgPath": "static/img/cryptoData.png",
+        "link": "https://github.com/mwzheng/simple-react-crypto-data-displayer"     
     },
     {
         "projectName": "Business Card OCR Parser",
@@ -165,7 +166,8 @@
         "technologies": ["Ruby"],
         "type": "Academic",
         "projectDescription": "Learned some basic ruby and created a maze solver. Learned, practiced and implemented DFS (Depth First Search).",
-        "imgPath": "static/img/maze.png"
+        "imgPath": "static/img/maze.png",
+        "link": ""
     },
     {
         "projectName": "Airline SQL Queries",
