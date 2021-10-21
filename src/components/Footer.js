@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
-    const githubLink = 'https://github.com/mwzheng/portfolio-react';
+    const githubLink = 'https://github.com/mwzheng';
 
     return <footer className='navbar fixed-bottom bg-dark text-white'>
         <div className='container'>
