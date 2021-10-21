@@ -11,8 +11,12 @@
 body {
     background-image: url('../src/img/stars.jpeg');
     background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 
-#intro {
-    background-image: url('../src/img/stars.jpeg');
+.home {
+    background-image: url('../src/img/computer.jpeg');
+    background-size: cover;
 }
