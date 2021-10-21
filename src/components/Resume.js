@@ -30,14 +30,14 @@ const Resume = () => {
         return proj.map(aProj => <ProjectCard key={aProj.projectName} project={aProj} />)
     }
 
-    return <div className='overflow-auto py-4'>
+    return <div className='overflow-auto'>
         <div className='resumeContainer container'>
             <div className='accordion' id='headingOne'>
 
                 {/* Education Section */}
                 <div className='accordion-item' id='headingOne'>
                     <h1 className='accordion-header' id='education'>
-                        <button className='accordion-button fs-4' type='button' data-bs-toggle='collapse'
+                        <button className='accordion-button fs-5' type='button' data-bs-toggle='collapse'
                             data-bs-target='#educationAccordion'>Education</button>
                     </h1>
                     <div id='educationAccordion' className='accordion-collapse collapse show' data-bs-parent='resumeAccordion'>
@@ -54,7 +54,7 @@ const Resume = () => {
                 {/* Technical Skills Section */}
                 <div className='accordion-item' id='headingTwo'>
                     <h1 className='accordion-header' id='skills'>
-                        <button className='accordion-button fs-4' type='button' data-bs-toggle='collapse'
+                        <button className='accordion-button fs-5' type='button' data-bs-toggle='collapse'
                             data-bs-target='#skillsAccordion'>Technical Skills</button>
                     </h1>
                     <div id='skillsAccordion' className='accordion-collapse collapse show' data-bs-parent='resumeAccordion'>
@@ -69,7 +69,7 @@ const Resume = () => {
                 {/* Projects Section */}
                 <div className='accordion-item' id='headingThree'>
                     <h1 className='accordion-header' id='projects'>
-                        <button className='accordion-button fs-4' type='button' data-bs-toggle='collapse'
+                        <button className='accordion-button fs-5' type='button' data-bs-toggle='collapse'
                             data-bs-target='#projectsAccordion'>Projects</button>
                     </h1>
                     <div id='projectsAccordion' className='accordion-collapse collapse show' data-bs-parent='resumeAccordion'>
@@ -82,16 +82,16 @@ const Resume = () => {
                 {/* Coursework Section */}
                 <div className='accordion-item' id='headingFour'>
                     <h1 className='accordion-header' id='projects'>
-                        <button className='accordion-button fs-4 collapsed' type='button' data-bs-toggle='collapse'
+                        <button className='accordion-button fs-5 collapsed' type='button' data-bs-toggle='collapse'
                             data-bs-target='#courseAccordion'>Relevant CourseWork</button>
                     </h1>
                     <div id='courseAccordion' className='accordion-collapse collapse' data-bs-parent='resumeAccordion'>
                         <div className='accordion-body'>
-                            <h4 className='fs-5 my-2'>Intro Level Courses</h4>
+                            <h4 className='fs-5 my-1'>Intro Level Courses</h4>
                             {makeUnorderedList(introCourses)}
-                            <h4 className='fs-5 my-2'>Intermediate Level Courses</h4>
+                            <h4 className='fs-5 my-1'>Intermediate Level Courses</h4>
                             {makeUnorderedList(intermediateCourses)}
-                            <h4 className='fs-5 my-2'>Advance Level Courses</h4>
+                            <h4 className='fs-5 my-1'>Advance Level Courses</h4>
                             {makeUnorderedList(advanceCourses)}
                         </div>
                     </div>

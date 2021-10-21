@@ -1,5 +1,5 @@
-.resumeContainer {
-    height: 100vh;
+.mainContainer, .resumeContainer {
+    height: 90vh;
 }
 
 .card-img-top {
@@ -9,6 +9,10 @@
 }
 
 body {
-    background-image: url('./background.png');
+    background-image: url('../src/img/stars.jpeg');
     background-size: cover;
+}
+
+#intro {
+    background-image: url('../src/img/stars.jpeg');
 }
