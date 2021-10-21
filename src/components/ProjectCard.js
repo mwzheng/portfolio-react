@@ -3,6 +3,16 @@ import React from "react";
 const ProjectCard = ({ project }) => {
     const { imgPath, projectName, projectDescription, technologies, link } = project;
 
+    let buttonText = 'GitHub Repo';
+    let buttonColor = 'btn-primary';
+    let isDisabled = '';
+
+    if (link === '') {
+        buttonText = 'Repo Not Available';
+        buttonColor = 'btn-danger';
+        isDisabled = 'disabled';
+    }
+
     const technologiesUsed = () => {
         return technologies.join(', ');
     }
@@ -19,7 +29,7 @@ const ProjectCard = ({ project }) => {
                     {technologiesUsed()}
                 </small>
             </p>
-            <a href={link} target='_blank' rel='noreferrer' className='btn btn-primary mx-auto d-block'>GitHub Repo</a>
+            <a href={link} target='_blank' rel='noreferrer' className={'btn mx-auto d-block ' + buttonColor + ' ' + isDisabled}>{buttonText}</a>
         </div>
     </div>
 }
