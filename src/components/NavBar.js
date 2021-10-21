@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
-    return <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
-        <div className='container-fluid m-1'>
+    return <nav className='navbar p-1 navbar-expand-lg navbar-dark bg-dark'>
+        <div className='container-fluid'>
             <a className='navbar-brand' href='/'>Mickey's Portfolio</a>
 
             <button className='navbar-toggler' type='button' data-bs-toggle='collapse'

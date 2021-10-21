@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
         return technologies.join(', ');
     }
 
-    return <div className='card m-3' style={{ width: `${20}em` }}>
+    return <div className='card' style={{ width: `${20}em` }}>
         <img className='card-img-top' src={process.env.PUBLIC_URL + imgPath} alt={projectName} />
         <div className='card-body'>
             <h5 className='card-title text-center'><b>{projectName}</b></h5>
@@ -15,7 +15,6 @@ const ProjectCard = ({ project }) => {
                 &emsp;&ensp;{projectDescription}<br /><br />
                 <small>
                     <span className=''>Technologies:</span>
-                    <br />
                     {technologiesUsed()}
                 </small>
             </p>
