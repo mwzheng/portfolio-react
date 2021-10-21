@@ -1,0 +1,200 @@
+[   
+    {
+        "projectName": "Portfolio Site",
+        "class": "N/A",
+        "date": "Oct, 2021",
+        "technologies": ["React.js","BootStrap","JavaScript"],
+        "type": "Personal",
+        "projectDescription": "I made this personal portfolio site while learning basic bootstrap from scratch. The entire site is made using React.js and styled using BootStrap.", 
+        "imgPath": "static/img/portfolio.png",
+        "link": "https://github.com/mwzheng/portfolio-react"
+    },
+    {
+        "projectName": "Job App Tracker (MERN)",
+        "class": "N/A",
+        "date": "March, 2021",
+        "technologies": ["React.js","JavaScript"],
+        "type": "Personal",
+        "projectDescription": "A React app to help keep track of job applications. Uses a line graph to visualize progress and stores data in MongoDb.", 
+        "imgPath": "static/img/jobAppTracker.png",
+        "link": "https://github.com/mwzheng/job-app-tracker-MERN"
+    },
+    {
+        "projectName": "Discord bot",
+        "class": "N/A",
+        "date": "January, 2021",
+        "technologies": ["Node.js", "APIs"],
+        "type": "Personal",
+        "projectDescription": "A simple discord bot created using Discord.js for personal use. Uses several simple APIs for different commands (Giphy, OwlBot, etc.).", 
+        "imgPath": "static/img/discord.png",
+        "link": "https://github.com/mwzheng/discord-bot"
+    },
+    {
+        "projectName": "Budget Tracker",
+        "class": "N/A",
+        "date": "January, 2021",
+        "technologies": ["MongoDb","Express.js","React.js","Node.js"],
+        "type": "Personal",
+        "projectDescription": "A budget tracker using the 50/30/20 rule. Keeps track of spending based on Needs, Wants and Savings.",
+        "imgPath": "static/img/budgetTracker.png",
+        "link": "https://github.com/mwzheng/budget-tracker"
+    },
+    {
+        "projectName": "Menu Api",
+        "class": "N/A",
+        "date": "January, 2021",
+        "technologies": ["Express.js, MongoDb Atlas, Node.js"],
+        "type": "Personal",
+        "projectDescription": "Learned to make a REST API with GET/POST/PUT request for Menu items. Allows for searching based on types of food or name.",
+        "imgPath": "static/img/menu.png",
+        "link": "https://github.com/mwzheng/menu-api"
+    },
+    {
+        "projectName": "UMD ELMs Login",
+        "class": "N/A",
+        "date": "September, 2020",
+        "technologies": ["Selenium","Python"],
+        "type": "Personal",
+        "projectDescription": "Learned basic Selenium and automated my daily login process to Canvas ELMS for remote classes based on classname entered.",
+        "imgPath": "static/img/canvas.png",
+        "link": "https://github.com/mwzheng/umd-elms-login"
+    },
+    {
+        "projectName": "Tic-Tac-Toe",
+        "class": "N/A",
+        "date": "October, 2020",
+        "technologies": ["Javascript", "React.js"],
+        "type": "Personal",
+        "projectDescription": "Two player tic-tac-toe made while learning React and how react hooks worked. Also learned how to deploy a simple site with Netlify.",
+        "imgPath": "static/img/ticTacToe.png",
+        "link": "https://github.com/mwzheng/tic-tac-toe"
+    },
+    {
+        "projectName": "Auto Typing Test",
+        "class": "N/A",
+        "date": "October, 2020",
+        "technologies": ["Selenium","Python"],
+        "type": "Personal",
+        "projectDescription": "Python scripts that uses selenium to auto complete typing test (KeyBr and 10FastFingers). Also, allows user to adjust the speed of typing.",
+        "imgPath": "static/img/typing.png",
+        "link": "https://github.com/mwzheng/autoTypingTest"
+    },
+    {
+        "projectName": "Library Manager",
+        "class": "N/A",
+        "date": "December, 2020",
+        "technologies": ["Java"],
+        "type": "Personal",
+        "projectDescription": "Console based virtual library manager. Allows users to create, login and logout of an account and checkout, search and return books.",
+        "imgPath": "static/img/library.png",
+        "link": "https://github.com/mwzheng/LibraryManager"
+    },
+    {
+        "projectName": "Weather App",
+        "class": "N/A",
+        "date": "January, 2021",
+        "technologies": ["React.js","Javascript"],
+        "type": "Personal",
+        "projectDescription": "A weather app made in React.js while learning how to use an API. Lets users to search for weather by city name or zipcode.",
+        "imgPath": "static/img/weatherApp.png",
+        "link": "https://github.com/mwzheng/simple-react-weather-app"
+    },
+    {
+        "projectName": "Pokedex",
+        "class": "N/A",
+        "date": "January, 2021",
+        "technologies": ["React.js","Javascript"],
+        "type": "Personal",
+        "projectDescription": "Fetched pokemon data from the PokeAPI to display stats on various pokemons. Practiced CSS card flip animations and React.",
+        "imgPath": "static/img/pokedex.png",
+        "link": "https://github.com/mwzheng/react-pokemon-list"
+    },
+    {
+        "projectName": "Simple Pixel Art Maker",
+        "class": "N/A",
+        "date": "May, 2021",
+        "technologies": ["React.js","JavaScript"],
+        "type": "Personal",
+        "projectDescription": "Pixel art maker using React.js. Lets users pick colors for each pixel and expand or minimize the canvas rows and columns.",
+        "imgPath": "static/img/pixelArt.png",
+        "link": "https://github.com/mwzheng/simple-pixel-art"
+    },
+    {
+        "projectName": "Crypto Data Displayer",
+        "class": "N/A",
+        "date": "May, 2021",
+        "technologies": ["React.js","JavaScript"],
+        "type": "Personal",
+        "projectDescription": "Simple React app that pulls data from CryptingUp on various cryptocurrencies and displays it. Shows recent prices for each.",
+        "imgPath": "static/img/cryptoData.png"       
+    },
+    {
+        "projectName": "Business Card OCR Parser",
+        "class": "N/A",
+        "date": "April, 2021",
+        "technologies": ["Html","JavaScript"],
+        "type": "Personal",
+        "projectDescription": "My submission for a programming challenge by Asymmetrik. Takes in unstructured business card text and outputs info (Name, Email & Phone).",
+        "imgPath": "static/img/businessCardParser.png",
+        "link": "https://github.com/mwzheng/businessCardOCRParser"
+    },
+    {
+        "projectName": "Doubly Linked List",
+        "class": "CMSC132 (Object-Oriented Programming II)",
+        "date": "July, 2018",
+        "technologies": ["Java"],
+        "type": "Academic",
+        "projectDescription": "Learned about doubly linked list and created a generic one from scratch where inputs are sorted on insert.",
+        "imgPath": "static/img/doublyLinkedList.png",
+        "link": ""
+    },
+    {
+        "projectName": "Priority Queue",
+        "class": "CMSC216 (Introduction to Computer Systems)",
+        "date": "November, 2018",
+        "technologies": ["C"],
+        "type": "Academic",
+        "projectDescription": "A dynamically allocated linked list with structs. Practiced pointers, basic memory allocation (Malloc, Free, etc) and C structs.",
+        "imgPath": "static/img/priorityQueue.png",
+        "link": ""
+    },
+    {
+        "projectName": "Maze Solver",
+        "class": "CMSC330 (Organization of Programming Languages)",
+        "date": "February, 2019",
+        "technologies": ["Ruby"],
+        "type": "Academic",
+        "projectDescription": "Learned some basic ruby and created a maze solver. Learned, practiced and implemented DFS (Depth First Search).",
+        "imgPath": "static/img/maze.png"
+    },
+    {
+        "projectName": "Airline SQL Queries",
+        "class": "CMSC424 (Database Design)",
+        "date": "September, 2019",
+        "technologies": ["PostgreSQL", "Python"],
+        "type": "Academic",
+        "projectDescription": "Learned basic PostgreSQL and SQL (Joins, clauses, etc). Wrote queries to gather specific information on Airlines and customers.", 
+        "imgPath": "static/img/airplane.png",
+        "link": ""
+    },
+    {
+        "projectName": "Ratsie Simulation",
+        "class": "CMSC433 (Programming Language Technologies and Paradigms)",
+        "date": "September, 2020",
+        "technologies": ["Java"],
+        "type": "Academic",
+        "projectDescription": "Created thread safe classes that simulated a restaurant. Learned and used concurrency concepts such as locks and guarded suspension.", 
+        "imgPath": "static/img/restaurant.png",
+        "link": ""
+    },
+    {
+        "projectName": "Twitter Analyzer",
+        "class": "CMSC433 (Programming Language Technologies and Paradigms)",
+        "date": "November, 2020",
+        "technologies": ["Hadoop","Java"],
+        "type": "Academic",
+        "projectDescription": "Learned basic Hadoop map and reduce to analyze a CSV file of tweets. Returned data based on flag (# tweets by user, etc.).",
+        "imgPath": "static/img/twitter.png",
+        "link": ""
+    }
+]
